@@ -106,7 +106,7 @@
 				<p class="expl">
 					This XML Sitemap contains <xsl:value-of select="count(sitemap:urlset/sitemap:url)"/> URLs.
 				</p>
-				<p class="expl"><a href="https://misto-trav.com.ua/sitemap_index.xml">&#8593; Sitemap Index</a></p>
+				<p class="expl"><a href="https://misto-green.site/sitemap_index.xml">&#8593; Sitemap Index</a></p>
 				<table id="sitemap" cellpadding="3">
 					<thead>
 					<tr>
@@ -140,8 +140,8 @@
 				</table>
 			</xsl:if>
 		</div>
-		<script type="text/javascript" src="https://misto-trav.com.ua/wp-includes/js/jquery/jquery.js"></script>
-		<script type="text/javascript" src="https://misto-trav.com.ua/wp-content/plugins/wordpress-seo/js/dist/jquery.tablesorter.min.js"></script>
+		<script type="text/javascript" src="https://misto-green.site/wp-includes/js/jquery/jquery.js"></script>
+		<script type="text/javascript" src="https://misto-green.site/wp-content/plugins/wordpress-seo/js/dist/jquery.tablesorter.min.js"></script>
 		<script	type="text/javascript"><![CDATA[
 			jQuery(document).ready(function() {
 				jQuery("#sitemap").tablesorter( { widgets: ['zebra'] } );
