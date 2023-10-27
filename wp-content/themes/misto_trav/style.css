@@ -1,0 +1,260 @@
+/*
+Theme Name: MT
+Theme URI:
+Author:*/
+
+#wpadminbar{
+    display: none;
+}
+.wpcf7-not-valid{
+    border-color: red!important;
+}
+.wpcf7-not-valid-tip{
+    /*font-size: 13px!important;*/
+    display: none;
+}
+
+.wpcf7-response-output, .wpcf7-form .ajax-loader{
+    display: none!important;
+}
+
+#advantage-details .button-back {
+    position: fixed;
+    top: 70px;
+    right: 35%;
+    margin: 30px;
+}
+
+#advantage-details .slide-background-wrapper {
+    position: fixed;
+    z-index: 0;
+    width: 65%;
+    top: 70px;
+}
+
+.share-entry [class^="st_"],.share-entry [class^="st_"] span{
+    position: absolute;
+    opacity: 0;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.point-entry .text-1 span, .point-entry .text-2 span{
+    font-weight: 400;
+
+}
+
+a.sold, area.sold{
+    cursor:default!important;
+}
+@media (max-width: 991px) {
+    #advantage-details .button-back {
+        z-index: 2;
+        margin: 15px 0;
+        right: 50%;
+        margin-right: -37px;
+    }
+}
+@media (max-width: 767px) {
+    .floor-title.active + .floor-toggle {
+        z-index: 2;
+    }
+    .gallery-entry-wrapper{
+        margin: 0 auto;
+    }
+    .gallery-title{
+        text-align: center;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    div.gm-style-iw {
+        top: 10px !important;
+    }
+    .map-slide-image-wrapper, .map-slide-image{
+        width: 100%;
+    }
+}
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block!important;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.zdacha span{font-size: 24px; line-height: 26px;}
+sup {font-size: .6em;}
+.popup-overlay .zdachat {
+    transition: all .3s; -webkit-transition: all .3s;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    top: 0px;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    width: 100px;
+    font-size: 1.2em;
+    left: -23%;
+    z-index: 50;
+    opacity: 0;
+}
+.popup-overlay.active .zdachat {opacity: 1;}
+
+.sections-data{
+    padding: 20px 20px 12px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.section-data{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.section-data-title{
+    background-color: #6abf4a;
+    border-radius: 50%;
+    padding: 10px 0;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+}
+.section-data-title.sold{
+    background-color: #C0C0C0;
+}
+.privacy ul ul{margin-left: 50px;}
+.privacy.sa ul li:before{display: none;}
+
+/*Phone header*/
+.phones-header {position: absolute;right: 16%;top: 7px;font-size: 16px;text-transform: uppercase;font-family: 'bold';padding-right: 51px;}
+.phones-header .toggle {position: absolute;right: -10000px;top: 100%;background: #fff;box-shadow: 5px 9px 20px rgba(24,24,24,.2);width: auto;padding: 20px 53px 20px 20px;opacity: 0;transform: scale(.95) translateY(10px);-webkit-transform: scale(.95) translateY(10px);transition: opacity .25s, transform .25s, right 0s .25s;-webkit-transition: opacity .25s, -webkit-transform .25s, right 0s .25s;transform-origin: 100% 0;-webkit-transform-origin: 100% 0;}
+.phones-header .icon {cursor: pointer;transition: opacity .3s, transform .3s;-webkit-transition: opacity .3s, -webkit-transform .3s;}
+html:not(.mobile ) .phones-header .icon:hover {opacity: .5;}
+html:not(.mobile ) .phones-header:hover .toggle, .phones-header.active .toggle {opacity: 1;transform: scale(1) translateY(0px);-webkit-transform: scale(1) translateY(0px);right: -20px;transition: opacity .25s, transform .25s, right 0s;-webkit-transition: opacity .25s, -webkit-transform .25s, right 0s;}
+.phones-header .toggle li {white-space: nowrap;height: auto;line-height: 1em;}
+.phones-header .button-close {right: 5px;position: absolute;top: 50%;margin-top: -18px;}
+html:not(.mobile ) .phones-header li a:hover {color: #6abf4a;}
+html:not(.mobile ) .phones-header .button-close{display: none;}
+html:not(.mobile ) .phones-header .toggle{padding: 20px;}
+@media (min-width: 768px) and (max-width: 1690px) {
+    .phones-header{right: 220px;}
+}
+@media (min-width: 340px) and (max-width: 767px) {
+    .phones-header{right: 95px;}
+}
+@media (max-width: 399px) {
+    .phones-header{display: none;}
+}
+.project_assoc_link {display: block; position: absolute; z-index: 2; right: 45px; top: 50px;}
+.project_assoc_link .project_assoc_img_hover {position: absolute;left: 0;top: 0;display: none;}.project_assoc_link:hover .project_assoc_img_hover {display: block;}
+.social-network-icon.social-network-icon-instagram img {max-width: 20px; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);}
+.greenville-footer-logo {max-width: 190px;}
+.website_by .imgWrapper {position: relative;display: inline-block;top: -1px;vertical-align: top; margin-left: 3px;width: 65px;}
+.website_by img{position: relative;display: inline-block;}
