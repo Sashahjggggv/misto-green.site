@@ -1207,12 +1207,13 @@ svg a.sold polygon, svg a.sold rect{fill: #c0c0c0;}
 .bold{font-family: 'bold';}
 
 a.website_by{
+    padding: 5px 0;
     position: relative;
 }
 a.website_by:before{
     background: #24252a url(../img/ALEX-logo.svg);
     background-repeat: no-repeat;
-    width: 71px;
+    width: 72px;
     background-position: right center;
     background-size: 100%;
     content: '';
