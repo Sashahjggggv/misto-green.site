@@ -36,5 +36,5 @@ Disallow: /*.php
 Disallow: /*?replytocom
 Disallow: /*?turl
 
-Host: misto-trav.com.ua
-Sitemap: http://misto-trav.com.ua/sitemap_index.xml
+Host: misto-green.site
+Sitemap: http://misto-green.site/sitemap_index.xml
